@@ -1,0 +1,138 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center; /* Centers items horizontally */
+            align-items: center; /* Centers items vertically */
+            height: 100px; /* Adjust height as needed */
+            background-color: #f4f4f4;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu li {
+            margin: 0 15px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+
+        .menu a:hover {
+            color: #007bff;
+        }
+		.menu-container {
+            display: flex;
+            align-items: center; /* Vertically align logo and menu */
+            justify-content: space-between; /* Space out logo and menu */
+            background-color: #f4f4f4;
+            padding: 10px 20px;
+        }
+     
+		
+
+        .contact-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact-container h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .contact-details {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .contact-details p {
+            margin: 10px 0;
+        }
+
+        .contact-details a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .contact-details a:hover {
+            text-decoration: underline;
+        }
+        
+		.homeback{
+			background-color: blue;
+            border: 2px solid black;
+            color: white;
+            padding: 5px, 10px;
+            /* Corrected padding values */
+            cursor: pointer;
+		}
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      width: 90%;
+      max-width: 1200px;
+    }
+    .product-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+    .product-card img {
+      width: 100%;
+      height: auto;
+    }
+    .product-info {
+      padding: 15px;
+    }
+    .product-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      margin: 10px 0 5px;
+    }
+    .product-description {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 15px;
+    }
+    .product-link {
+      display: inline-block;
+      text-decoration: none;
+      background: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 14px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .product-link:hover {
+      background: #45a049;
+    }
